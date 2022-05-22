@@ -1,9 +1,8 @@
 PyTorch code for **Visualizing and Understanding Self-Supervised Vision Learning**
 
 ## Gradio Web-Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Annon/xai-self-supervised)
+**Note**: Hugging Face Spaces only provide CPUs so some methods are slow in the web-demo. We recomend using Google Colab below with a GPU:
 ## Google Colab [![Open In Colab](https://github.com/amrzv/awesome-colab-notebooks/blob/main/images/colab.svg)](https://colab.research.google.com/drive/1C3io30vzdGhxywhapJYE-lsITYLofhAe?usp=sharing)
-
-**Note**: For methods which require several runs of the model (such as Perturbation methods and Pixel Invariance), the web-demo is a bit slow (~ 2 min) since the Hugging Face Spaces only provide CPUs. For ultimate speed, we recomend using the jupyter notebook provided here with a GPU (or Google Colab). 
 
 To experiment with this code, simply open the jupyter notebook `xai.ipynb`.
 
