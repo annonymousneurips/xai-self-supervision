@@ -8,4 +8,22 @@ To experiment with this code, clone this repo and then open the jupyter notebook
 
 Either download [ImageNet](https://image-net.org/download.php) validation set (in that case you will have the images in `val/images/`) or use an image of your interest. In that case, please change the path in jupyter file to point to your image of interest. 
 
-For SimCLRv2 models, please download from [here](https://drive.google.com/drive/folders/1mw5o_6kzYNnI-IJAUgNYDGFNV8ig3Rer?usp=sharing) and place them in `pretrained_models/simclr2_models/`
+## Models
+You may download some self-supervised models to experiment with:
+
+| Model | link | location |
+| --- | --- | --- |
+| SimCLRv2 (1x) | [link](https://drive.google.com/file/d/1c2Hl_uutm9IssG8TdpI0b3d2PqB5VHyQ/view?usp=sharing)| `pretrained_models/simclr2_models/` |
+| SimCLRv2 (2x) | [link](https://drive.google.com/file/d/1028oGnbdFg-SzYetrGPFb9g6mSVA5dRL/view?usp=sharing) | `pretrained_models/simclr2_models/` |
+| Barlow Twins | [link](https://drive.google.com/file/d/18l3Z-OHMD-b5Eo8_dCXOu_hjLNZQf5he/view?usp=sharing) | `pretrained_models/barlow_models/` |
+| SimSiam | [link](https://drive.google.com/file/d/1u5xsaitKtQXMiD4Wg9hItei8y0DBGEXP/view?usp=sharing) |`pretrained_models/simsiam_models/` |
+
+<br>
+In the `xai.ipynb`, simply choose one of the following: `simclrv2`, `barlow_twins`, `simsiam`
+<br>
+For all models other than SimCLRv2, please change the hyperparameters in `xai.ipynb` according to below:
+
+| Method | Hyperparameters |
+| --- | --- |
+| Feature Visualization | `up_until = 5`, `reg_l2 = False` |
+| Pixel Invariance | `epochs = 10` |
