@@ -19,7 +19,10 @@ You may download some self-supervised models to experiment with:
 | SimSiam | [link](https://drive.google.com/file/d/1u5xsaitKtQXMiD4Wg9hItei8y0DBGEXP/view?usp=sharing) |`pretrained_models/simsiam_models/` |
 
 <br>
-In the `xai.ipynb`, simply choose one of the following: `simclrv2`, `barlow_twins`, `simsiam`
+
+In `xai.ipynb`, simply choose one of the following: `simclrv2`, `barlow_twins`, `simsiam`
+
+<br>
 <br>
 For all models other than SimCLRv2, please change the hyperparameters in `xai.ipynb` according to below:
 
