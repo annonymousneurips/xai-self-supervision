@@ -18,7 +18,7 @@ You may download some self-supervised models to experiment with:
 | Barlow Twins | [link](https://drive.google.com/file/d/18l3Z-OHMD-b5Eo8_dCXOu_hjLNZQf5he/view?usp=sharing) | `pretrained_models/barlow_models/` |
 | SimSiam | [link](https://drive.google.com/file/d/1u5xsaitKtQXMiD4Wg9hItei8y0DBGEXP/view?usp=sharing) |`pretrained_models/simsiam_models/` |
 
-In `xai.ipynb`, simply choose one of the following: `simclrv2`, `barlow_twins`, `simsiam`
+In `xai.ipynb`, simply set `network` to one of the following: `simclrv2`, `barlow_twins`, `simsiam`
 
 For all models other than SimCLRv2, please change the hyperparameters in `xai.ipynb` according to below:
 
