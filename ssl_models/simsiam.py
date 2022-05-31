@@ -67,7 +67,7 @@ class RestructuredSimSiam(nn.Module):
         self.mlp_encoder[6].bias.requires_grad = False
         self.contrastive_head = model.predictor
 
-    def forward(self, x, run_head):
+    def forward(self, x, run_head = True):
         
         x = self.mlp_encoder(self.encoder(x))   # don't detach since we will do backprop for explainability
         
